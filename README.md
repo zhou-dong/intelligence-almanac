@@ -1,4 +1,4 @@
-# almanac
+# intelligence-almanac
 
 This repo holds the facts of the history of intelligence — the real biology, neuroscience, and AI/ML history behind the alchemist-ai chapter scripts (chemotaxis, perceptrons, backpropagation, TD learning, CNNs, reinforcement learning, and the human research history behind each).
 

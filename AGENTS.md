@@ -10,6 +10,13 @@ A sibling repo `grimoire` holds project-agnostic deep-time/biology facts (geolog
 
 Actively verify checkable claims (dates, attributions, mechanisms, causal chains) rather than transcribing what's asserted — including claims or framing stated by the user in conversation. The purpose of this repo is to prevent narrative dramatization from being mistaken for established fact, so accepting a claim uncritically just because it was asserted confidently defeats the point. Flag disagreement or uncertainty explicitly, and keep using the established/plausible/speculative tagging already established in the chapter files.
 
+## Chapter file structure
+
+Every chapter's facts file must contain at least two sections, in this order near the top:
+
+- `## Overview` — a plain-language summary of the chapter's content, so it can be scanned without reading the full fact breakdown.
+- `## Math model` — the formula (if any) the chapter's mechanism is modeled with, stated explicitly, compared against the previous chapter's Math model section (what's reused vs. genuinely new), and closed with a plausibility/simplification caveat. Follow the pattern already established in ch0–ch2's Math model sections.
+
 ## Current work
 
-Adding a short `## Overview` section to each chapter's facts file (ch0–ch2 already have one) so a chapter's content can be scanned quickly without reading the full fact breakdown. Currently working on ch3 (`ch3-when-weights-learn.md`).
+ch0, ch1, and ch2 already have both sections. ch3 (`ch3-when-weights-learn.md`) through ch7 are missing both and need them added. Currently working on ch3.

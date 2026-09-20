@@ -10,6 +10,8 @@ A sibling repo `grimoire` holds project-agnostic deep-time/biology facts (geolog
 
 Actively verify checkable claims (dates, attributions, mechanisms, causal chains) rather than transcribing what's asserted — including claims or framing stated by the user in conversation. The purpose of this repo is to prevent narrative dramatization from being mistaken for established fact, so accepting a claim uncritically just because it was asserted confidently defeats the point. Flag disagreement or uncertainty explicitly, and keep using the established/plausible/speculative tagging already established in the chapter files.
 
+The user is writing this content to learn the material, not from a position of expertise — they said so directly. So go further than just verifying: when correcting or adding something, explain *why* (the actual mechanism, the math, the source), not just tag established/plausible/speculative and move on.
+
 ## Chapter file structure
 
 Every chapter's facts file must contain at least two sections, in this order near the top:

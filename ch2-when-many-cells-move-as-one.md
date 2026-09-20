@@ -80,17 +80,25 @@ This chapter opens after the Cryogenian "Snowball Earth" glaciations, in the Edi
 - **Branching order among animal lineages is a tree, not a ladder.** Sponges, cnidarians, and bilaterians are not sequential steps where one evolves into the next — each split leaves two sister lineages, only one of which keeps splitting further. The traditional (though actively disputed) view: the early animal ancestor's lineage split off sponges first, then the remaining lineage split off cnidarians, leaving bilaterians as the last-splitting group — meaning sponges and cnidarians are bilaterians' cousins, still alive today, not ancestors bilaterians "passed through." A competing hypothesis places ctenophores (comb jellies) as the first branch instead of sponges; this remains unresolved. (plausible — branching order specifically is an active, unresolved debate; the tree-not-ladder structure itself is established)
 
   ```
-  Eukaryotes
-       │
-  early animal ancestor
-       │
-       ├── Sponges (branch off first — disputed; ctenophores are a competing "first branch")
+  Eukaryotes                                  ← domain-wide; most of this domain
+       │                                        (yeast, amoebas, algae, plants, fungi)
+  early animal ancestor                         has no nervous system and no
+       │                                        documented capacity to learn
+       ├── Sponges (branch off first — disputed;      no neurons/synapses at all —
+       │            ctenophores are a competing        "can it learn" doesn't apply
+       │            "first branch")
        │
        └── (remaining lineage)
               │
-              ├── Cnidarians (branch off next)
+              ├── Cnidarians (branch off next)   ← FIRST organism in this tree that
+              │                                     can learn: has synapses, and
+              │                                     habituation (experience-based
+              │                                     synaptic weakening) is documented
+              │                                     here — no convergence point needed
               │
-              └── Bilaterians (last-splitting group)
+              └── Bilaterians (last-splitting group)  ← adds centralization (ganglion),
+                                                          NOT learning itself — plasticity
+                                                          already existed pre-bilaterian
   ```
 - **Cnidarians are the earliest-branching lineage where synapse-weight-updating-from-experience is documented, because they're the earliest-branching lineage with neurons at all.** Per the branching tree above, sponges split off before cnidarians — and sponges have no neurons or synapses in the first place, so the question of experience-based weight change doesn't apply to them; there's nothing there to update. Cnidarians are the first branch in this tree that has synapses, and habituation (a synapse weakening its response purely from the animal's own repeated stimulation, no target or comparison involved) is documented in them. So the honest claim is "at least as old as the cnidarian lineage" — a relative/structural claim about where in the tree this capability first appears — not a claim datable to any specific era, since synaptic biochemistry leaves no fossil trace. (established for cnidarians specifically; the "earliest lineage where this is even possible" framing follows from the tree structure above, not a separate documented fact)
 - **Convergence and experience-based plasticity are independent capabilities, and plasticity is the older of the two.** A perceptron-style structure (this chapter's ganglion) is about *wiring* — gathering many inputs into one place before producing an output. Learning-from-experience is about a *single synapse* changing its own strength based on its own recent activity (e.g., habituation), which needs no convergence point at all: cnidarian nerve nets have no central ganglion anywhere, yet already show documented experience-based synaptic plasticity (`§ Cnidarian ("radiatan") nervous system`). So the historical order is plausibly the reverse of what the ganglion-as-perceptron framing might suggest — tunable, experience-modifiable synapses came first (pre-bilaterian), and centralization (this chapter's ganglion) arrived later, initially riding on fixed weights rather than introducing plasticity itself. (plausible — a structural inference from the cnidarian/bilaterian evidence already cited in this file, not a new documented fact)

@@ -69,6 +69,18 @@ This chapter opens after the Cryogenian "Snowball Earth" glaciations, in the Edi
 - Genuine individual-lifetime learning about food and danger — associating a specific stimulus with an outcome and changing behavior because of it (classical/operant conditioning) — is documented in some invertebrates (e.g., Aplysia, various insects), but requires outcome-comparing machinery closer to ch3's error-driven perceptron rule (`ch3-when-weights-learn.md § The perceptron learning rule`) than to anything in this chapter. Attributing that capability to *Ikaria* specifically would be a stronger, less defensible claim than the fixed-reflex framing above. (plausible caution against overclaiming; the perceptron rule itself is established, per ch3)
 - **Eukaryotes arise from a merger of two LUCA-descended branches, not a straight chain through one domain.** The eukaryotic host cell itself (its core lineage, genetics, ribosomes) is understood to descend from *within* Archaea, closely related to a specific archaeal group (Asgard archaea) — not from Bacteria. Separately, at some point an archaeal host cell merged with a bacterium, which became the mitochondrion — a symbiotic partner living inside the eukaryotic cell, not the lineage the eukaryotic cell itself descends from. So the correct picture is `LUCA → Archaea (host lineage) → Eukaryotes`, with a bacterial lineage folded in afterward via endosymbiosis — not `LUCA → Bacteria → Eukaryotes`, and not a single linear chain through either domain alone. (plausible — a leading, well-supported model for eukaryotic origin, still refined in its specifics; see `ch0-first-thing-alive.md § Framing notes`)
 
+  **Simple:**
+
+  ```
+  LUCA
+   ├── Bacteria ──────────────────────┐
+   │                                   (one bacterial lineage engulfed/merged in
+   │                                    → becomes the mitochondrion)
+   └── Archaea (host lineage) ──────── Eukaryotes
+  ```
+
+  **Full (annotated — where learning does and doesn't appear):**
+
   ```
   LUCA                                    ← ch0's organism: no nervous system,
    │                                        no learning (single-cell chemistry only)
@@ -86,6 +98,24 @@ This chapter opens after the Cryogenian "Snowball Earth" glaciations, in the Edi
   ```
 
 - **Branching order among animal lineages is a tree, not a ladder.** Sponges, cnidarians, and bilaterians are not sequential steps where one evolves into the next — each split leaves two sister lineages, only one of which keeps splitting further. The traditional (though actively disputed) view: the early animal ancestor's lineage split off sponges first, then the remaining lineage split off cnidarians, leaving bilaterians as the last-splitting group — meaning sponges and cnidarians are bilaterians' cousins, still alive today, not ancestors bilaterians "passed through." A competing hypothesis places ctenophores (comb jellies) as the first branch instead of sponges; this remains unresolved. (plausible — branching order specifically is an active, unresolved debate; the tree-not-ladder structure itself is established)
+
+  **Simple:**
+
+  ```
+  Eukaryotes
+       │
+  early animal ancestor
+       │
+       ├── Sponges (branch off first — disputed; ctenophores are a competing "first branch")
+       │
+       └── (remaining lineage)
+              │
+              ├── Cnidarians (branch off next)
+              │
+              └── Bilaterians (last-splitting group)
+  ```
+
+  **Full (annotated — where learning does and doesn't appear):**
 
   ```
   Eukaryotes                                  ← domain-wide; most of this domain

@@ -2,6 +2,8 @@
 
 *This file holds facts specific to this chapter. This is sub-chapter 2.2 of Chapter 2 — same period (Ediacaran) and same organism (a generic early bilaterian, not a specific named species) as sub-chapter 2.1 (`ch2.1-when-many-cells-move-as-one.md`), split out only to keep each file a manageable length. 2.1 covers structure/convergence (fixed weights); 2.2 covers weights actually changing from experience.*
 
+**Chapter 2 only uses half of the perceptron:** 2.1 borrows its *structure* (weighted sum + threshold). 2.2 names its *learning rule* but never shows a bilaterian actually running it — no bilaterian is documented to.
+
 ## Overview
 
 Chapter 2.1's organism had fixed weights — no learning. This chapter adds real synapses that change with experience (synaptic plasticity / Hebbian learning). Rosenblatt's 1958 perceptron rule is named as the chapter's math reference.

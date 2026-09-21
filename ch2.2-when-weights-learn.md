@@ -1,6 +1,6 @@
-# Facts — When Weights Learn
+# Facts — When Weights Learn (Chapter 2.2)
 
-*This file holds facts specific to this chapter.*
+*This file holds facts specific to this chapter. This is sub-chapter 2.2 of Chapter 2 — same period (Ediacaran) and same organism (*Ikaria wariootia*) as sub-chapter 2.1 (`ch2.1-when-many-cells-move-as-one.md`), split out only to keep each file a manageable length. 2.1 covers structure/convergence (fixed weights); 2.2 covers weights actually changing from experience.*
 
 ## Synaptic plasticity / Hebbian learning
 
@@ -21,8 +21,8 @@
 ## Real biological grounding for experience-driven plasticity
 
 - The best-documented real organism for activity-dependent synaptic change producing actual behavioral learning is ***Aplysia californica*** (a sea slug), from Eric Kandel's Nobel-winning work: classical conditioning of its gill-withdrawal reflex, mechanistically traced to serotonin-driven presynaptic facilitation — a real, named, living animal with a dissected mechanism, not a fictional composite. (established, for this specific organism/mechanism)
-- This is associative plasticity (pairing two stimuli so one comes to trigger the other), which is mechanistically simpler than Rosenblatt's rule — no explicit target/expected-output is computed and compared; two co-occurring signals just strengthen the link between them. It sits between habituation (documented even earlier, in cnidarians — see `ch2-when-many-cells-move-as-one.md § Cnidarian ("radiatan") nervous system`) and Rosenblatt's error-driven rule below in real-mechanism complexity. (plausible characterization of relative complexity, not a documented ordering claim)
-- Attributing *Aplysia*-level associative plasticity, or anything like it, to this story's own early bilaterian (*Ikaria wariootia*, per `ch2-when-many-cells-move-as-one.md`) is **not supported by direct evidence** — *Ikaria*'s fossil preserves no nervous system at all. *Aplysia* grounds the mechanism as real and documented in a living bilaterian lineage; it does not establish when, or whether, this specific capability existed in *Ikaria* itself. (plausible caution against overclaiming)
+- This is associative plasticity (pairing two stimuli so one comes to trigger the other), which is mechanistically simpler than Rosenblatt's rule — no explicit target/expected-output is computed and compared; two co-occurring signals just strengthen the link between them. It sits between habituation (documented even earlier, in cnidarians — see `ch2.1-when-many-cells-move-as-one.md § Cnidarian ("radiatan") nervous system`) and Rosenblatt's error-driven rule below in real-mechanism complexity. (plausible characterization of relative complexity, not a documented ordering claim)
+- Attributing *Aplysia*-level associative plasticity, or anything like it, to this story's own early bilaterian (*Ikaria wariootia*, per `ch2.1-when-many-cells-move-as-one.md`) is **not supported by direct evidence** — *Ikaria*'s fossil preserves no nervous system at all. *Aplysia* grounds the mechanism as real and documented in a living bilaterian lineage; it does not establish when, or whether, this specific capability existed in *Ikaria* itself. (plausible caution against overclaiming)
 
 ## Framing notes
 

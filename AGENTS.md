@@ -1,6 +1,6 @@
 # Working on this repo
 
-`intelligence-almanac` is the fact-checking backbone for a separate narrative project called "alchemist-ai." Alchemist-ai tells a continuous story of intelligence evolving — first life, chemotaxis, multicellularity, synaptic/Hebbian learning, and (per remaining chapter titles) onward through temporal-difference learning, structural/visual learning, deep learning, and decision-making — with a recurring cast (e.g. the organism *Ikaria* spans ch2.1 into ch2.2; a character "Vera" appears by ch7).
+`intelligence-almanac` is the fact-checking backbone for a separate narrative project called "alchemist-ai." Alchemist-ai tells a continuous story of intelligence evolving — first life, chemotaxis, multicellularity, synaptic/Hebbian learning, and (per remaining chapter titles) onward through temporal-difference learning, structural/visual learning, deep learning, and decision-making — with a recurring cast (e.g. a character "Vera" appears by ch7). Chapter 2's organisms (`ch2.1`, `ch2.2`) are deliberately generic early bilaterians, not a specific named fossil species — see `## Chapter organization` below.
 
 This repo is not the story — it's the evidence layer under it, **and it is the source of truth for chapter structure**: alchemist-ai's chapters should follow this repo's organization, not the other way around. Each chapter has a facts file (`chN-title.md`, or `chN.M-title.md` for a sub-chapter) tagging every checkable claim **established** / **plausible** / **speculative**, catching narrative overclaims, and flagging errors in the script for later correction.
 
@@ -14,7 +14,7 @@ The user is writing this content to learn the material, not from a position of e
 
 ## Chapter organization
 
-A chapter covers one shared period and organism. When a chapter's material would get too long as one file, split it into sub-chapters (`chN.1-...md`, `chN.2-...md`, ...) that still share that same period/organism — don't split across a period or organism change; that's a new top-level chapter instead. Example: ch2.1 (`ch2.1-when-many-cells-move-as-one.md`, structure/convergence) and ch2.2 (`ch2.2-when-weights-learn.md`, weights actually changing from experience) both cover the Ediacaran and *Ikaria wariootia*.
+A chapter covers one shared period and organism. When a chapter's material would get too long as one file, split it into sub-chapters (`chN.1-...md`, `chN.2-...md`, ...) that still share that same period/organism — don't split across a period or organism change; that's a new top-level chapter instead. Example: ch2.1 (`ch2.1-when-many-cells-move-as-one.md`, structure/convergence) and ch2.2 (`ch2.2-when-weights-learn.md`, weights actually changing from experience) both cover the Ediacaran and a generic early bilaterian (not a specific named fossil species — a real named fossil's undocumented traits shouldn't be dressed up as documented fact about it).
 
 ## Chapter file structure
 
@@ -34,4 +34,6 @@ Any tree/branching diagram in a chapter file gets two versions, labeled `**Simpl
 
 ch0, ch1, and ch2.1 already have both sections (Overview, Math model). ch2.2 (`ch2.2-when-weights-learn.md`) through ch7 are missing both and need them added. Currently working on ch2.2.
 
-ch2 was split into sub-chapters 2.1 and 2.2 on 2026-09-20 (formerly separate ch2/ch3 files) after recognizing they cover the same period (Ediacaran) and organism (*Ikaria wariootia*) — see `## Chapter organization` above. ch3–ch7 filenames are otherwise unchanged.
+ch2 was split into sub-chapters 2.1 and 2.2 on 2026-09-20 (formerly separate ch2/ch3 files) after recognizing they cover the same period (Ediacaran) and organism — see `## Chapter organization` above. ch3–ch7 filenames are otherwise unchanged.
+
+Also on 2026-09-20: dropped the named fossil species (*Ikaria wariootia*) as ch2's organism, replacing it with a generic "early bilaterian" — the fossil doesn't preserve any nervous system, so attributing the chapter's ganglion/plasticity claims to a specific named species overclaimed what that fossil actually documents.

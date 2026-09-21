@@ -4,7 +4,9 @@
 
 ## Overview
 
-Chapter 2.1 gave this chapter's organism a perceptron-like structure with **fixed** weights — no way to change based on experience. This chapter introduces the missing piece: synapses whose strength actually changes over time (synaptic plasticity), with the Hebbian principle ("co-active connections strengthen") as the general rule and Rosenblatt's 1958 perceptron learning rule — an explicit error-driven weight update — as the chapter's named mathematical reference point. But that reference point is a ceiling the chapter's own story doesn't reach: the best-documented real case of experience-driven learning, *Aplysia*'s gill-withdrawal conditioning (Kandel's Nobel-winning work), is mechanistically *simpler* than Rosenblatt's rule — associative pairing, with no explicit target or error being computed and compared — and no bilaterian, this early or otherwise, is documented to implement literal error-driven training. The chapter illustrates the general idea (two identical starting bodies diverging by experience) using its own generic early bilaterian, but that's a narrative device, not a documented claim about that organism — the real evidence for the mechanism comes from a different, living animal (*Aplysia*).
+Chapter 2.1's organism had fixed weights — no learning. This chapter adds real synapses that change with experience (synaptic plasticity / Hebbian learning). Rosenblatt's 1958 perceptron rule is named as the chapter's math reference.
+
+**But the early bilaterian does not run Rosenblatt's rule. No bilaterian does — not even the best-documented case.** Rosenblatt's rule needs an explicit target/error comparison. The real biological example this chapter grounds itself in, *Aplysia* (a modern sea slug, not this chapter's organism), does something simpler: two things happen together, and the connection between them strengthens. No target, no error, no comparison. That's the actual documented mechanism — Rosenblatt's formula is the teaching reference, not something any bilaterian is shown to implement.
 
 ## Synaptic plasticity / Hebbian learning
 
@@ -15,6 +17,7 @@ Chapter 2.1 gave this chapter's organism a perceptron-like structure with **fixe
 
 ## The perceptron learning rule
 
+- **Not implemented by this chapter's early bilaterian, or by any bilaterian, as far as documented.** This rule is a 1958 human-made math formula, not a biological mechanism. Keep this stated plainly wherever the rule is mentioned. (established)
 - Frank Rosenblatt formulated a supervised learning rule for the perceptron: after producing an output, compare it to a target/correct answer, and adjust each weight in proportion to the error and the corresponding input. This is accurately described in the script's formula:
   > new weight = old weight + (target − actual output) × input
   (established — this is the standard perceptron learning rule as originally formulated)

@@ -14,7 +14,7 @@ Every checkable claim is tagged with one of:
 
 ## Files
 
-One file per chapter, each covering the facts specific to that chapter. A chapter covers one shared period and organism; when covering that much material in one file would get too long, it's split into sub-chapters (e.g. `ch2.1-...md`, `ch2.2-...md`) that still share the same period/organism. Facts shared across chapters, or shared with a future project, belong in `grimoire` instead.
+One file per chapter, each covering the facts specific to that chapter. A chapter covers one shared period and organism; when covering that much material in one file would get too long, it's split into sub-chapters (e.g. `ch4.1-...md`, `ch4.2-...md`) that still share the same period/organism. Facts shared across chapters, or shared with a future project, belong in `grimoire` instead.
 
 ## License
 

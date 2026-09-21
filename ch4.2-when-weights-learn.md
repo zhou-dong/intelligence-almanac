@@ -1,12 +1,12 @@
-# Facts — When Weights Learn (Chapter 2.2)
+# Facts — When Weights Learn (Chapter 4.2)
 
-*This file holds facts specific to this chapter. This is sub-chapter 2.2 of Chapter 2 — same period (Ediacaran) and same organism (a generic early bilaterian, not a specific named species) as sub-chapter 2.1 (`ch2.1-when-many-cells-move-as-one.md`), split out only to keep each file a manageable length. 2.1 covers structure/convergence (fixed weights); 2.2 covers weights actually changing from experience.*
+*This file holds facts specific to this chapter. This is sub-chapter 4.2 of Chapter 4 — same period (Ediacaran) and same organism (a generic early bilaterian, not a specific named species) as sub-chapter 4.1 (`ch4.1-when-many-cells-move-as-one.md`), split out only to keep each file a manageable length. 4.1 covers structure/convergence (fixed weights); 4.2 covers weights actually changing from experience. Renumbered from ch2.1/ch2.2 to ch4.1/ch4.2 on 2026-09-21 to make room for standalone sponges (`ch2-when-there-is-no-one-home.md`) and cnidarians (`ch3-when-the-first-synapse-fires.md`) chapters.*
 
-**Chapter 2 only uses half of the perceptron:** 2.1 borrows its *structure* (weighted sum + threshold). 2.2 names its *learning rule* but never shows a bilaterian actually running it — no bilaterian is documented to.
+**Chapter 4 only uses half of the perceptron:** 4.1 borrows its *structure* (weighted sum + threshold). 4.2 names its *learning rule* but never shows a bilaterian actually running it — no bilaterian is documented to.
 
 ## Overview
 
-Chapter 2.1's organism had fixed weights — no learning. This chapter adds real synapses that change with experience (synaptic plasticity / Hebbian learning). Rosenblatt's 1958 perceptron rule is named as the chapter's math reference.
+Chapter 4.1's organism had fixed weights — no learning. This chapter adds real synapses that change with experience (synaptic plasticity / Hebbian learning). Rosenblatt's 1958 perceptron rule is named as the chapter's math reference.
 
 **But the early bilaterian does not run Rosenblatt's rule. No bilaterian does — not even the best-documented case.** Rosenblatt's rule needs an explicit target/error comparison. The real biological example this chapter grounds itself in, *Aplysia* (a modern sea slug, not this chapter's organism), does something simpler: two things happen together, and the connection between them strengthens. No target, no error, no comparison. That's the actual documented mechanism — Rosenblatt's formula is the teaching reference, not something any bilaterian is shown to implement.
 
@@ -29,7 +29,7 @@ Chapter 2.1's organism had fixed weights — no learning. This chapter adds real
 
 ## Math model
 
-- ch2.1's formula was static — `signal ≈ Σ(wᵢ·xᵢ) + bias`, then `motor state ≈ threshold(signal)` — with no rule for weights to change at all (`ch2.1-when-many-cells-move-as-one.md § Math model`). This chapter adds the missing piece: a rule for *how weights change*, not a new way of combining inputs.
+- ch4.1's formula was static — `signal ≈ Σ(wᵢ·xᵢ) + bias`, then `motor state ≈ threshold(signal)` — with no rule for weights to change at all (`ch4.1-when-many-cells-move-as-one.md § Math model`). This chapter adds the missing piece: a rule for *how weights change*, not a new way of combining inputs.
 - The chapter's named reference is Rosenblatt's perceptron learning rule: `new weight = old weight + (target − actual output) × input` — an explicit, error-driven update. (established, as originally formulated by Rosenblatt)
 - The real documented biological mechanism (*Aplysia*'s associative plasticity) does not use this formula. It's closer to a target-free Hebbian correlation: roughly `Δweight ≈ rate × (input activity) × (co-occurring signal's activity)` — a connection strengthens because two things happened together, never because an output was compared to a correct answer. (plausible simplification of the general Hebbian shape; not a claim that this exact formula has been fit to *Aplysia*'s data)
 - These are two different formulas, and the chapter shouldn't blur them: Rosenblatt's rule is the mathematical ceiling named here for teaching purposes; the actual evidence backing "weights change from experience" (*Aplysia*) fits a simpler, target-free rule instead. Neither formula is demonstrated in this chapter's own early bilaterian — see `§ Real biological grounding` below. (plausible pedagogical framing — keeps the two confidence levels distinct rather than implying one documented mechanism covers both)
@@ -37,8 +37,8 @@ Chapter 2.1's organism had fixed weights — no learning. This chapter adds real
 ## Real biological grounding for experience-driven plasticity
 
 - The best-documented real organism for activity-dependent synaptic change producing actual behavioral learning is ***Aplysia californica*** (a sea slug), from Eric Kandel's Nobel-winning work: classical conditioning of its gill-withdrawal reflex, mechanistically traced to serotonin-driven presynaptic facilitation — a real, named, living animal with a dissected mechanism, not a fictional composite. (established, for this specific organism/mechanism)
-- This is associative plasticity (pairing two stimuli so one comes to trigger the other), which is mechanistically simpler than Rosenblatt's rule — no explicit target/expected-output is computed and compared; two co-occurring signals just strengthen the link between them. It sits between habituation (documented even earlier, in cnidarians — see `ch2.1-when-many-cells-move-as-one.md § Cnidarian ("radiatan") nervous system`) and Rosenblatt's error-driven rule below in real-mechanism complexity. (plausible characterization of relative complexity, not a documented ordering claim)
-- Attributing *Aplysia*-level associative plasticity, or anything like it, to this story's own early bilaterian (per `ch2.1-when-many-cells-move-as-one.md`) is **not supported by direct evidence** — fossils of this kind preserve no nervous system at all. *Aplysia* grounds the mechanism as real and documented in a living bilaterian lineage; it does not establish when, or whether, this specific capability existed in this chapter's early bilaterian. (plausible caution against overclaiming)
+- This is associative plasticity (pairing two stimuli so one comes to trigger the other), which is mechanistically simpler than Rosenblatt's rule — no explicit target/expected-output is computed and compared; two co-occurring signals just strengthen the link between them. It sits between habituation (documented even earlier, in cnidarians — see `ch3-when-the-first-synapse-fires.md § Experience-based plasticity — habituation`) and Rosenblatt's error-driven rule below in real-mechanism complexity. (plausible characterization of relative complexity, not a documented ordering claim)
+- Attributing *Aplysia*-level associative plasticity, or anything like it, to this story's own early bilaterian (per `ch4.1-when-many-cells-move-as-one.md`) is **not supported by direct evidence** — fossils of this kind preserve no nervous system at all. *Aplysia* grounds the mechanism as real and documented in a living bilaterian lineage; it does not establish when, or whether, this specific capability existed in this chapter's early bilaterian. (plausible caution against overclaiming)
 
 ## Framing notes
 
